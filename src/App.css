@@ -4,3 +4,61 @@
   padding: 2rem;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+}
+
+.drink-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 100px;
+}
+
+.mini-header{
+  display: flex;
+  flex-grow: 15;
+  background-color: rgb(162, 128, 97);
+  border-radius: 10px;
+}
+
+.button-newdrink{
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(86, 56, 56);
+  /* padding: 20px; */
+  height: 15pxs;
+  width: 15px;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 30px;
+  border: 2px solid #5b5b5c;
+  border-radius: 20px;
+  /* height: 300px; */
+  width: 200px;
+}
+
+.answer-space{
+  background-color: #d6d6d655;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+#correct{
+  background-color: green;
+}
+
+#wrong{
+  background-color: red;
+}
